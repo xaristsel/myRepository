@@ -1,8 +1,8 @@
 package com.codehub.springcoreexamples.vehicle;
 
-public class Bike {
+public class Bike implements Vehicle{
 
-    public void ride() {
+    public void start() {
         System.out.println("Travelling by Bike");
     }
 
