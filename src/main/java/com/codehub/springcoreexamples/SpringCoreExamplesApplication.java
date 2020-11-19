@@ -8,6 +8,9 @@ public class SpringCoreExamplesApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringCoreExamplesApplication.class, args);
+
+		Travel myTravel = new Travel();
+		myTravel.startJourney();
 	}
 
 }
