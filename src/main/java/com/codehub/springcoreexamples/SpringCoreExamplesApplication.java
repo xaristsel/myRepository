@@ -13,7 +13,7 @@ public class SpringCoreExamplesApplication {
 		SpringApplication.run(SpringCoreExamplesApplication.class, args);
 
 		ApplicationContext applicationContext = new ClassPathXmlApplicationContext("application-context.xml");
-		Vehicle vehicle = applicationContext.getBean("car", Vehicle.class);
+		Vehicle vehicle = applicationContext.getBean("bike", Vehicle.class);
 		vehicle.start();
 
 	}
