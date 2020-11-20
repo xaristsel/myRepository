@@ -18,5 +18,6 @@ For further reference, please consider the following sections:
 * 1_1-Coupling-Coherence: Simple example of highly coupled classes
 * 1_2-Coupling-Coherence: Attempting to decouple highly coupled classes using interfaces
 * 2_1-Spring-Bean-XML-Config: Adding an example of Spring Bean XML definition
-* 2_1-Spring-Bean-Annotations-Config: Adds example of Spring Bean Annotations definition
+* 2_2-Spring-Bean-Annotations-Config: Adds example of Spring Bean Annotations definition
+* 2_3-Spring-Bean-Java-Config: Adds example of Spring Bean Java Configuration definition
 
