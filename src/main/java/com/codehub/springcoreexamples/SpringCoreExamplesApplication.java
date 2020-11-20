@@ -1,8 +1,10 @@
 package com.codehub.springcoreexamples;
 
-import com.codehub.springcoreexamples.vehicle.Car;
+import com.codehub.springcoreexamples.vehicle.Vehicle;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 @SpringBootApplication
 public class SpringCoreExamplesApplication {
@@ -10,9 +12,10 @@ public class SpringCoreExamplesApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringCoreExamplesApplication.class, args);
 
-		Travel myTravel = new Travel();
-		myTravel.setMyVehicle(new Car()); //what happens if we comment this line?
-		myTravel.startJourney();
+		ApplicationContext applicationContext = new ClassPathXmlApplicationContext("application-context.xml");
+		Vehicle vehicle = applicationContext.getBean("car", Vehicle.class);
+		vehicle.start();
+
 	}
 
 }

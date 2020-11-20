@@ -17,4 +17,5 @@ For further reference, please consider the following sections:
 * master: just a placeholder
 * 1_1-Coupling-Coherence: Simple example of highly coupled classes
 * 1_2-Coupling-Coherence: Attempting to decouple highly coupled classes using interfaces
+* 2_1-Spring-Bean-XML-Config: Adding an example of Spring Bean XML definition
 
