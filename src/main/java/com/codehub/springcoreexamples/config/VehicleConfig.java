@@ -24,7 +24,7 @@ public class VehicleConfig {
         return new Bike();
     }
 
-    @Bean
+    @Bean(initMethod = "initMethod", destroyMethod = "destroyMethod")
     public Vehicle bikeVehicle(){
         return new Bike();
     }

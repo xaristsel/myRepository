@@ -20,4 +20,5 @@ For further reference, please consider the following sections:
 * 2_1-Spring-Bean-XML-Config: Adding an example of Spring Bean XML definition
 * 2_2-Spring-Bean-Annotations-Config: Adds example of Spring Bean Annotations definition
 * 2_3-Spring-Bean-Java-Config: Adds example of Spring Bean Java Configuration definition
+* 2_4-Spring-Bean-Lifecylce-Annotation-Config: Adds example of Spring beans lifecycle methods execution
 
