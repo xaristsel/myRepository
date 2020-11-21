@@ -5,7 +5,12 @@
 
     <!--Define your beans here -->
     <bean id="car"
-          class="com.codehub.springcoreexamples.vehicle.Car">
+          class="com.codehub.springcoreexamples.vehicle.Car" scope="singleton">
+    </bean>
+
+    <bean id="bike"
+          class="com.codehub.springcoreexamples.vehicle.Bike"
+          scope="prototype">
     </bean>
 
 </beans>
