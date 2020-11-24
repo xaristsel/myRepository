@@ -1,12 +1,11 @@
-package com.codehub.springcoreexamples;
+package com.codehub.springcoreexamples.travel;
 
-import com.codehub.springcoreexamples.vehicle.Car;
 import com.codehub.springcoreexamples.vehicle.Vehicle;
 
 public class Travel {
 
     /*
-        Instead of creating an instance of specific type, we create one of an interface one,
+        Instead of creating an instance of specific type, we use one of an interface,
         allowing many objects implementing Vehicle interface to be injected
      */
     Vehicle myVehicle;
