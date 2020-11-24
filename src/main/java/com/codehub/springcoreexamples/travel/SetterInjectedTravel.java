@@ -11,6 +11,7 @@ public class SetterInjectedTravel {
     public void setVehicle(Vehicle givenVehicle) {
         //I could introduce some logic here ex. is this the Vehicle I'm expecting?
         myVehicle = givenVehicle;
+        System.out.println("Using Setter Injection");
     }
 
     public void startJourney() {

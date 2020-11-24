@@ -10,6 +10,7 @@ public class ConstructorInjectedTravel {
     public ConstructorInjectedTravel(Vehicle myVehicle) {
         //any time this instance is created it has a Vehicle provided
         this.myVehicle = myVehicle;
+        System.out.println("Using Constructor Injection");
     }
 
     public void startJourney() {
