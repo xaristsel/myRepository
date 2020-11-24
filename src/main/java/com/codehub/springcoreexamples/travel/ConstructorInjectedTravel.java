@@ -1,7 +1,9 @@
 package com.codehub.springcoreexamples.travel;
 
 import com.codehub.springcoreexamples.vehicle.Vehicle;
+import org.springframework.stereotype.Component;
 
+@Component
 public class ConstructorInjectedTravel {
 
     private Vehicle myVehicle;
@@ -12,6 +14,8 @@ public class ConstructorInjectedTravel {
         this.myVehicle = myVehicle;
         System.out.println("Using Constructor Injection");
     }
+
+    // Question?
 
     public void startJourney() {
         myVehicle.start();
