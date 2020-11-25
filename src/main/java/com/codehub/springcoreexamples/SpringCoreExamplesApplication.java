@@ -6,16 +6,14 @@ import com.codehub.springcoreexamples.travel.SetterInjectedTravel;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+//Now it's time to talk a bit about this annotation :)
 @SpringBootApplication
 public class SpringCoreExamplesApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringCoreExamplesApplication.class, args);
-
-        //We'll ask for an instance of each bean from the Application Context, as we have defined it in the XML
-        ApplicationContext ctx = new ClassPathXmlApplicationContext("application-context.xml");
+        //We'll ask for an instance of each bean from the Application Context, but now it doesn't come from the XML
+        ApplicationContext ctx = SpringApplication.run(SpringCoreExamplesApplication.class, args);
 
         //Constructor Injection
         // When SPRING FRAMEWORK instantiates the object
@@ -36,8 +34,6 @@ public class SpringCoreExamplesApplication {
         // IT will find from the available beans a fitting dependency ad pass it to the object
         AutowiredInjectedTravel autowiredInjectedTravel = (AutowiredInjectedTravel) ctx.getBean("autowiredInjectedTravel");
         autowiredInjectedTravel.startJourney();
-
-
 
     }
 }

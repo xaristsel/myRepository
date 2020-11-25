@@ -22,5 +22,6 @@ For further reference, please consider the following sections:
 * 2_3-Spring-Bean-Java-Config: Adds example of Spring Bean Java Configuration definition
 * 2_4-Spring-Bean-Lifecycle-Annotation-Config: Adds example of Spring beans lifecycle methods execution
 * 3_1-Dependency-Injection-without-Spring: Introduce DI without using spring framework
-* 3_2-Dependency-Injection-with-Spring-Annotation: DI with spring framework and XML configuration
+* 3_2-Dependency-Injection-with-Spring-XML: DI with spring framework and XML configuration
 * 3_3-Dependency-Injection-with-Spring-Annotation: DI with spring framework and Annotations configuration
+* 3_4-Dependency-Injection-with-Spring-Java: DI with spring framework and Java configuration
