@@ -11,7 +11,6 @@ public class SpringCoreExamplesApplication {
 
 		Travel myTravel = new Travel();
 		myTravel.startJourney();
-		System.out.println("takis");
 	}
 
 }
